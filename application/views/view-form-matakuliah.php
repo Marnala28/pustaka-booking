@@ -1,3 +1,4 @@
+
 <html>
 
 <head>
@@ -25,16 +26,19 @@
                         <input type="text" name="kode" id="kode">
                     </td>
                 </tr>
+                <?= form_error("kode"); ?>
                 <tr>
                     <th>Nama MTK</th>
                     <td>:</td>
                     <td>
                         <input type="text" name="nama" id="nama">
                     </td>
-                </tr>
+                </tr> 
+                <?= form_error("nama"); ?>
                 <tr>
                     <th>SKS</th>
                     <td>:</td>
+                    <?php ?>
                     <td>
                         <select name="sks" id="sks">
                             <option value="">Pilih SKS</option>
@@ -54,4 +58,4 @@
     </center>
 </body>
 
-</html>
+</html>x`x`
